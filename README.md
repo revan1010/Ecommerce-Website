@@ -4,7 +4,7 @@ This repository contains a simple e-commerce web application built with React.js
 
 ## Live Demo
 
-Check out the live demo of the application hosted on GitHub Pages: [Live Demo](https://your-github-username.github.io/your-repo-name)
+Check out the live demo of the application hosted on GitHub Pages: [Live Demo](e)
 
 ## Features
 
