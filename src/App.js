@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./components/Login"; // Use PascalCase for component names
+import Login from "./components/Login"; 
 import Cart from "./components/Cart";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -28,7 +28,7 @@ function App() {
     } else {
       setIsAuth(false);
     }
-  }, [setIsAuth]); // Include setIsAuth in the dependency array
+  }, [setIsAuth]); 
 
   return (
     <BrowserRouter>
