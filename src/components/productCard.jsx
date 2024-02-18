@@ -69,23 +69,23 @@ const ProductCard = ({ product }) => {
   return (
     <Card
       sx={{
-        width: 300, // Ensure the card spans the full width of its container
+        width: 300, 
         height: "auto",
         margin: 2,
         display: "flex",
         flexDirection: "column",
         position: "relative",
-        border: "1px solid #e0e0e0", // Light gray border
-        borderRadius: "8px", // Rounded corners
-        boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.2)", // Improved shadow
-        backgroundColor: "#fffff", // Subtle shadow
+        border: "1px solid #e0e0e0", 
+        borderRadius: "8px", 
+        boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.2)", 
+        backgroundColor: "#fffff",
       }}
     >
       <CardContent
         sx={{
           flex: "1 0 auto",
-          alignItems: "center", // Center content horizontally
-          padding: "16px", // Add padding to the card content
+          alignItems: "center", 
+          padding: "16px", 
         }}
       >
         <img
@@ -140,7 +140,7 @@ const ProductCard = ({ product }) => {
           right: 0,
           justifyContent: "center",
           padding: "8px",
-          backgroundColor: "#f9f9f9", // Light gray background
+          backgroundColor: "#f9f9f9", 
         }}
       >
         <Button
